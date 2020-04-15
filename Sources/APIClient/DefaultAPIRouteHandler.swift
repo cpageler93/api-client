@@ -19,8 +19,8 @@ open class DefaultAPIRouteHandler: APIRouteHandler {
     public var eventLoop: EventLoop
 
     private let client: HTTPClient
-    private let decoder = JSONDecoder()
-    private let encoder = JSONEncoder()
+    public let decoder = JSONDecoder()
+    public let encoder = JSONEncoder()
 
     init(httpClient: HTTPClient, eventLoop: EventLoop, baseURL: URL) {
         self.client = httpClient
