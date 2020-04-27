@@ -17,6 +17,11 @@ open class APIClient {
 
     private let httpClient: HTTPClient
 
+    public init(handler: APIRouteHandler, httpClient: HTTPClient) {
+        self.handler = handler
+        self.httpClient = httpClient
+    }
+
     public init(httpClient: HTTPClient, eventLoop: EventLoop, baseURL: URL) {
         self.handler = DefaultAPIRouteHandler(httpClient: httpClient, eventLoop: eventLoop, baseURL: baseURL)
         self.httpClient = httpClient
