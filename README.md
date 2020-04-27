@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/cpageler93/api-client/blob/master/LICENSE)
 [![Twitter: @cpageler93](https://img.shields.io/badge/contact-@cpageler93-blue.svg?style=flat)](https://twitter.com/cpageler93)
 
-`APIClient` is an easy to use HTTP Client for Swift.
+`APIClient` is an easy to use HTTP Client for Swift based on [swift-server/async-http-client](https://github.com/swift-server/async-http-client)..
 
 ## Usage Example (GitHub)
 
