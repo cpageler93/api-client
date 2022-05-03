@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "APIClient", targets: ["APIClient"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/swift-server/async-http-client.git", from: "1.1.1")
+        .package(url: "https://github.com/swift-server/async-http-client.git", from: "1.5.1")
     ],
     targets: [
         .target(name: "APIClient", dependencies: [
